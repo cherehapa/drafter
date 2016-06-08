@@ -25,7 +25,7 @@ else
     PY="";
 fi
 
-FLAGS=""
+FLAGS=" -s ALLOW_MEMORY_GROWTH=1 "
 
 if test "x$RUNEMRUN" = "xon"; then
     FLAGS="$FLAGS --emrun";
